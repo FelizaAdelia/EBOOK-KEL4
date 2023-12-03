@@ -17,7 +17,10 @@ return new class extends Migration
             $table->foreign('id_user')->references('id_user')->on('users');
             $table->unsignedBigInteger('id_ebook');
             $table->foreign('id_ebook')->references('id_ebook')->on('ebooks');
-            $table->datetime('tgl_beli');
+            $table->unsignedBigInteger('harga_ebook');
+            $table->foreign('harga_ebook')->references('harga_ebook')->on('ebooks');
+            $table->datetime('tanggal_beli');
+            $table->enum('status_beli', ['paid', 'unpaid'])->default('unpaid');
             $table->timestamps();
         });
     }

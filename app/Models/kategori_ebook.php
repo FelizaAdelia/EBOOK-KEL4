@@ -1,10 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class KategoriEbook extends Model
+class kategori_ebook extends Model
 {
     protected $table = 'kategori_ebooks';
     protected $primaryKey = 'id_kategori';

@@ -161,41 +161,22 @@
                 </div>
             </nav>
             <!-- Navbar End -->
-
-
+            
             <!-- Table Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Kategori</h6>
-                        <a href="../kategori/create">Tambah</a>
+                        <h6 class="mb-0">Tambah Kategori Baru</h6>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table text-start align-middle table-bordered table-hover mb-0">
-                            <thead>
-                                <tr class="text-dark">
-                                    <th scope="col">ID Kategori</th>
-                                    <th scope="col">Nama Kategori</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($kategori_ebooks as $kategori_ebook)
-                                <tr>
-                                    <td>{{ $kategori_ebook->id_kategori }}</td>
-                                    <td>{{ $kategori_ebook->nama_kategori }}</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-primary" href="{{ route('kategori.edit', $kategori_ebook->id_kategori) }}">Edit</a>
-                                        <form action="{{ 'product/destroy' }}" method="POST" style="display: inline-block;">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                    <div class="container">
+                        <form method="POST" action="{{ route('kategori.store') }}">
+                            @csrf
+                            <div class="form-group">
+                                <label for="nama_kategori">Nama Kategori :</label>
+                                <input type="text" id="nama_kategori" name="nama_kategori" required>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary">Tambah</button>
+                        </form>
                     </div>
                 </div>
             </div>

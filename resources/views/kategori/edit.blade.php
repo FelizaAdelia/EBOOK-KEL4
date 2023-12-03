@@ -23,12 +23,14 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('assets/css/admin.css') }}">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
-    <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/admin.css" />
 </head>
 
 <body>
@@ -92,7 +94,9 @@
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                                    <!-- Menggunakan foto dari folder public/img -->
+                                    <img class="rounded-circle" src="{{ asset('../img/user.jpg') }}" alt="" style="width: 40px; height: 40px;">
+
                                     <div class="ms-2">
                                         <h6 class="fw-normal mb-0">Jhon send you a message</h6>
                                         <small>15 minutes ago</small>
@@ -161,44 +165,28 @@
                 </div>
             </nav>
             <!-- Navbar End -->
-
-
+            
             <!-- Table Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Kategori</h6>
-                        <a href="../kategori/create">Tambah</a>
+                        <h6 class="mb-0">Edit Kategori</h6>
+                        <a href="{{ route('kategori.data') }}">Kembali</a>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table text-start align-middle table-bordered table-hover mb-0">
-                            <thead>
-                                <tr class="text-dark">
-                                    <th scope="col">ID Kategori</th>
-                                    <th scope="col">Nama Kategori</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($kategori_ebooks as $kategori_ebook)
-                                <tr>
-                                    <td>{{ $kategori_ebook->id_kategori }}</td>
-                                    <td>{{ $kategori_ebook->nama_kategori }}</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-primary" href="{{ route('kategori.edit', $kategori_ebook->id_kategori) }}">Edit</a>
-                                        <form action="{{ 'product/destroy' }}" method="POST" style="display: inline-block;">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                    <div class="container">
+                        <form method="POST" action="{{ route('kategori.update', $kategori_ebooks->id_kategori) }}">
+                            @csrf
+                            @method('PUT')
+                            <div class="form-group">
+                                <label for="nama_kategori">Nama Kategori :</label>
+                                <input type="text" id="nama_kategori" name="nama_kategori" value="{{ $kategori_ebooks->nama_kategori }}" required>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                        </form>
                     </div>
                 </div>
             </div>
+
             <!-- Table End -->
 
 

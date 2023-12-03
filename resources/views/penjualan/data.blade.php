@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ADMIN - Kategori</title>
+    <title>ADMIN - Ebook</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -61,8 +61,9 @@
                 <div class="navbar-nav w-100">
                     <a href="index" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                     <a href="user" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User</a>
-                    <a href="{{ route('kategori.data') }}" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>Kategori</a>
+                    <a href="{{ route('kategori.data') }}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Kategori</a>
                     <a href="{{ route('products.data') }}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Ebook</a>
+                    <a href="penjualan" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>Penjualan</a>
                     </div>
                 </div>
             </nav>
@@ -167,33 +168,35 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Kategori</h6>
+                        <h6 class="mb-0">Penjualan</h6>
                         <a href="../kategori/create">Tambah</a>
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
                             <thead>
                                 <tr class="text-dark">
-                                    <th scope="col">ID Kategori</th>
-                                    <th scope="col">Nama Kategori</th>
+                                    <th scope="col">ID Penjualan</th>
+                                    <th scope="col">ID User</th>
+                                    <th scope="col">ID Ebook</th>
+                                    <th scope="col">Waktu</th>
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($kategori_ebooks as $kategori_ebook)
                                 <tr>
-                                    <td>{{ $kategori_ebook->id_kategori }}</td>
-                                    <td>{{ $kategori_ebook->nama_kategori }}</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
                                     <td>
-                                        <a class="btn btn-sm btn-primary" href="{{ route('kategori.edit', $kategori_ebook->id_kategori) }}">Edit</a>
-                                        <form action="{{ 'product/destroy' }}" method="POST" style="display: inline-block;">
+                                        <a class="btn btn-sm btn-primary" href=" ">Edit</a>
+                                        <form action=" " method="POST" style="display: inline-block;">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-sm btn-danger">Delete</button>
                                         </form>
                                     </td>
                                 </tr>
-                                @endforeach
                             </tbody>
                         </table>
                     </div>

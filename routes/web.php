@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\KategoriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,10 +24,6 @@ Route::get('/about', 'AboutController@index');
 Route::get('/contact', 'ContactController@index');
 
 
-// Route::get('/products', 'ProductController@index');
-// Route::get('/products/create', 'ProductController@create'); // Menampilkan formulir tambah produk
-// Route::post('/products', 'ProductController@store'); // Menyimpan data produk baru
-
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 Route::post('/products', [ProductController::class, 'store']);
@@ -34,9 +31,19 @@ Route::get('/products/data', [ProductController::class, 'indexData'])->name('pro
 Route::post('/products/store', [ProductController::class, 'store'])->name('products.store');
 Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
 Route::put('/products/{id}', [ProductController::class, 'update'])->name('products.update');
+Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
 
 
 
+Route::get('/kategori/create', [KategoriController::class, 'create'])->name('products.create');
+Route::get('/kategori/data', [KategoriController::class, 'indexData'])->name('kategori.data');
+Route::post('/kategori/store', [KategoriController::class, 'store'])->name('kategori.store');
+Route::get('/kategori/edit/{kategori}', [KategoriController::class, 'edit'])->name('kategori.edit');
+Route::put('/kategori/{kategori}', [KategoriController::class, 'update'])->name('kategori.update');
+
+Route::get('/penjualan', function () {
+    return view('penjualan.data');
+});
 
 // Route untuk menampilkan form registrasi
 Route::get('/registrasi', function () {
@@ -106,6 +113,3 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/kategori/data', function () {
-    return view('kategori.data');
-});

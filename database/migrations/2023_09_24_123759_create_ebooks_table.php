@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('tahun_ebook');
             $table->longtext('deskripsi_ebook');
             $table->float('harga_ebook');
+            $table->string('sampul_ebook');
+            $table->string('file_ebook');
             $table->timestamps();
         });
     }
