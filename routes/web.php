@@ -74,15 +74,15 @@ Route::get('/home', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('pages.about');
 });
 
 Route::get('/products', function () {
-    return view('products');
+    return view('pages.products');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('pages.contact');
 });
 
 Route::get('/single', function () {
@@ -93,23 +93,47 @@ Route::get('/single-product', function () {
     return view('single');
 });
 
-Route::get('/kids', function () {
-    return view('pages.kids');
-});
-
-Route::get('/mens', function () {
-    return view('pages.fiksi');
-});
-
-Route::get('/womens', function () {
-    return view('pages.womens');
-});
-
 Route::get('/registrasi', function () {
     return view('registrasi');
 });
 
 Route::get('/login', function () {
     return view('login');
+});
+
+Route::get('/co', function () {
+    return view('pages.checkout');
+});
+
+Route::get('/coba', function () {
+    return view('cobaco');
+});
+
+Route::get('/fiksi', function () {
+    return view('pages.fiksi');
+});
+
+Route::get('/nonfiksi', function () {
+    return view('pages.nonfiksi');
+});
+
+Route::get('/saintek', function () {
+    return view('pages.saintek');
+});
+
+Route::get('/pendidikan', function () {
+    return view('pages.pendidikan');
+});
+
+Route::get('/kesehatan', function () {
+    return view('pages.kesehatan');
+});
+
+Route::get('/biskeu', function () {
+    return view('pages.biskeu');
+});
+
+Route::get('/checkout', function () {
+    return view('pages.co');
 });
 

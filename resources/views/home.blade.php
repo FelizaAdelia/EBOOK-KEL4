@@ -13,7 +13,7 @@
             rel="stylesheet"
         />
 
-        <title>Hexashop Ecommerce HTML CSS Template</title>
+        <title>EBookJunction - online shop for your ebook</title>
 
         <!-- Additional CSS Files -->
         <link
@@ -61,7 +61,7 @@ https://templatemo.com/tm-571-hexashop
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="home" class="logo">
-                                <img src="{{ asset('logo.jpg') }}" alt="Logo" style="width: 200px; height: 60px; margin-bottom: 0px;" />
+                                <img src="assets/images/logo-biasa.png" alt="Logo" style="width: 200px; height: 60px; margin-bottom: 0px;" />
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
@@ -69,16 +69,17 @@ https://templatemo.com/tm-571-hexashop
                                 <li class="scroll-to-section"><a href="home" class="active">Home</a></li>
                                 <li class="scroll-to-section"><a href="about" >About</a></li>
                                  <li class="submenu"><a href="javascript:;">Categories</a><ul>
-                                        <li><a href="mens">Fiksi</a></li>
-                                        <li><a href="womens">Non Fiksi</a></li>
-                                        <li><a href="mens">Sains dan Teknologi</a></li>
-                                        <li><a href="womens">Kesehatan</a></li>
-                                        <li><a href="kids">Bisnis dan Keuangan</a></li></ul>
+                                        <li><a href="fiksi">Fiksi</a></li>
+                                        <li><a href="nonfiksi">Non Fiksi</a></li>
+                                        <li><a href="saintek">Sains dan Teknologi</a></li>
+                                        <li><a href="pendidikan">Pendidikan</a></li>
+                                        <li><a href="kesehatan">Kesehatan</a></li>
+                                        <li><a href="biskeu">Bisnis dan Keuangan</a></li></ul>
                                 </li>
                                 <li class="scroll-to-section"><a href="contact">Contact</a></li>
                                 <li class="scroll-to-section"><a href="products">Product</a></li>
-                                <li class="scroll-to-section"><a href="single">Profile</a></li>
-                                <li class="scroll-to-section"><a href="#explore">Search</a>
+                                <li class="scroll-to-section"><a href="#">Profile</a></li>
+                                <li class="scroll-to-section"><a href="#explore">My Book</a>
                                 </li></ul>
                             <a class="menu-trigger">
                                 <span>Menu</span>
@@ -108,7 +109,7 @@ https://templatemo.com/tm-571-hexashop
                                     </div>
                                 </div>
                                 <img
-                                    src="assets/images/left-banner-image.jpg"
+                                    src="assets/images/banner-besar.png"
                                     alt=""
                                 />
                             </div>
@@ -135,14 +136,14 @@ https://templatemo.com/tm-571-hexashop
                                                     <div
                                                         class="main-border-button"
                                                     >
-                                                        <a href="womens"
+                                                        <a href="nonfiksi"
                                                             >Lihat Buku</a
                                                         >
                                                     </div>
                                                 </div>
                                             </div>
                                             <img
-                                                src="assets/images/baner-right-image-01.jpg"
+                                                src="assets/images/banner-nonfiksi.png"
                                             />
                                         </div>
                                     </div>
@@ -165,14 +166,14 @@ https://templatemo.com/tm-571-hexashop
                                                     <div
                                                         class="main-border-button"
                                                     >
-                                                        <a href="mens"
+                                                        <a href="fiksi"
                                                             >Lihat Buku</a
                                                         >
                                                     </div>
                                                 </div>
                                             </div>
                                             <img
-                                                src="assets/images/baner-right-image-02.jpg"
+                                                src="assets/images/banner-fiksi.png"
                                             />
                                         </div>
                                     </div>
@@ -195,14 +196,14 @@ https://templatemo.com/tm-571-hexashop
                                                     <div
                                                         class="main-border-button"
                                                     >
-                                                        <a href="kids"
+                                                        <a href="pendidikan"
                                                             >Lihat Buku</a
                                                         >
                                                     </div>
                                                 </div>
                                             </div>
                                             <img
-                                                src="assets/images/baner-right-image-03.jpg"
+                                                src="assets/images/banner-pendidikan.png"
                                             />
                                         </div>
                                     </div>
@@ -211,28 +212,28 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="right-first-image">
                                         <div class="thumb">
                                             <div class="inner-content">
-                                                <h4>Bisnis & Keuangan</h4>
+                                                <h4>Kesehatan</h4>
                                                 <span
-                                                    >Pelajaran berharga untuk sukses dalam dunia bisnis yang kompetitif.</span
+                                                    >Temukan tips kesehatan, gaya hidup sehat, dan informasi mengenai berbagai aspek kesehatan.</span
                                                 >
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
-                                                    <h4>Bisnis & Keuangan</h4>
+                                                    <h4>Kesehatan</h4>
                                                     <p>
-                                                    Pelajaran berharga untuk sukses dalam dunia bisnis yang kompetitif.
+                                                    Temukan tips kesehatan, gaya hidup sehat, dan informasi mengenai berbagai aspek kesehatan.
                                                     </p>
                                                     <div
                                                         class="main-border-button"
                                                     >
-                                                        <a href="aksesoris"
+                                                        <a href="kesehatan"
                                                             >Lihat Buku</a
                                                         >
                                                     </div>
                                                 </div>
                                             </div>
                                             <img
-                                                src="assets/images/baner-right-image-04.jpg"
+                                                src="assets/images/banner-kesehatan.png"
                                             />
                                         </div>
                                     </div>
@@ -245,15 +246,15 @@ https://templatemo.com/tm-571-hexashop
         </div>
         <!-- ***** Main Banner Area End ***** -->
 
-        <!-- ***** Men Area Starts ***** -->
+        <!-- ***** fiksi Area Starts ***** -->
         <section class="section" id="men">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Fiksi Terbaru</h2>
+                            <h2>Trending Now</h2>
                             <span
-                                >Temukan dunia imajinatif dalam novel dan cerita pendek.</span
+                                >Mari kita jelajahi dunia pengetahuan dan hiburan dengan mengunjungi toko!</span
                             >
                         </div>
                     </div>
@@ -268,188 +269,68 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="thumb">
                                         <div class="hover-content">
                                             <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
+                                                <li><a href="single-product"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-shopping-cart"></i></a></li>
                                             </ul>
                                         </div>
-                                        <img
-                                            src="assets/images/men-01.jpg"
-                                            alt=""
-                                        />
+                                        <img src="assets/images/men-01.jpg"
+                                            alt=""/>
                                     </div>
                                     <div class="down-content">
                                         <h4>Classic Spring</h4>
                                         <span>$120.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="thumb">
                                         <div class="hover-content">
                                             <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
+                                                <li><a href="single-product"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-shopping-cart"></i></a></li>
                                             </ul>
                                         </div>
-                                        <img
-                                            src="assets/images/men-02.jpg"
-                                            alt=""
-                                        />
+                                        <img src="assets/images/men-02.jpg"
+                                            alt=""/>
                                     </div>
                                     <div class="down-content">
                                         <h4>Air Force 1 X</h4>
                                         <span>$90.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="thumb">
                                         <div class="hover-content">
                                             <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
+                                                <li><a href="single-product"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-shopping-cart"></i></a></li>
                                             </ul>
                                         </div>
-                                        <img
-                                            src="assets/images/men-03.jpg"
-                                            alt=""
-                                        />
+                                        <img src="assets/images/men-03.jpg"
+                                            alt=""/>
                                     </div>
                                     <div class="down-content">
                                         <h4>Love Nana ‘20</h4>
                                         <span>$150.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="thumb">
                                         <div class="hover-content">
                                             <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
+                                                <li><a href="single-product"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product"><i class="fa fa-shopping-cart"></i></a></li>
                                             </ul>
                                         </div>
-                                        <img
-                                            src="assets/images/men-01.jpg"
-                                            alt=""
-                                        />
+                                        <img src="assets/images/men-01.jpg"
+                                            alt=""/>
                                     </div>
                                     <div class="down-content">
                                         <h4>Classic Spring</h4>
                                         <span>$120.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -460,438 +341,8 @@ https://templatemo.com/tm-571-hexashop
         </section>
         <!-- ***** Men Area Ends ***** -->
 
-        <!-- ***** Women Area Starts ***** -->
-        <section class="section" id="women">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="section-heading">
-                            <h2>Non-Fiksi Terbaru</h2>
-                            <span
-                                >Temukan pengetahuan baru dalam kategori ini.</span
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="women-item-carousel">
-                            <div class="owl-women-item owl-carousel">
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/women-01.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>New Green Jacket</h4>
-                                        <span>$75.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/women-02.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Classic Dress</h4>
-                                        <span>$45.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/women-03.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Spring Collection</h4>
-                                        <span>$130.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/women-01.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Classic Spring</h4>
-                                        <span>$120.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Women Area Ends ***** -->
-
-        <!-- ***** Kids Area Starts ***** -->
-        <section class="section" id="kids">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="section-heading">
-                            <h2>Pendidikan Terbaru</h2>
-                            <span
-                                >Pelajari teknik pengajaran terbaik dan temukan cara terbaru untuk mendidik anak-anak.</span
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="kid-item-carousel">
-                            <div class="owl-kid-item owl-carousel">
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/kid-01.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>School Collection</h4>
-                                        <span>$80.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/kid-02.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Summer Cap</h4>
-                                        <span>$12.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/kid-03.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Classic Kid</h4>
-                                        <span>$30.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <div class="hover-content">
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-eye"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-star"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        href="single-product"
-                                                        ><i
-                                                            class="fa fa-shopping-cart"
-                                                        ></i
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <img
-                                            src="assets/images/kid-01.jpg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="down-content">
-                                        <h4>Classic Spring</h4>
-                                        <span>$120.00</span>
-                                        <ul class="stars">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Kids Area Ends ***** -->
-
         <!-- ***** Explore Area Starts ***** -->
-        <section class="section" id="explore">
+        <!-- <section class="section" id="explore">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -970,7 +421,7 @@ https://templatemo.com/tm-571-hexashop
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- ***** Explore Area Ends ***** -->
 
         <!-- ***** Social Area Starts ***** -->
@@ -1103,11 +554,7 @@ https://templatemo.com/tm-571-hexashop
                                 </div>
                                 <div class="col-lg-2">
                                     <fieldset>
-                                        <button
-                                            type="submit"
-                                            id="form-submit"
-                                            class="main-dark-button"
-                                        >
+                                        <button type="submit"id="form-submit"class="main-dark-button">
                                             <i class="fa fa-paper-plane"></i>
                                         </button>
                                     </fieldset>
@@ -1119,42 +566,20 @@ https://templatemo.com/tm-571-hexashop
                         <div class="row">
                             <div class="col-6">
                                 <ul>
-                                    <li>
-                                        Store Location:<br /><span
-                                            >Sunny Isles Beach, FL 33160, United
-                                            States</span
-                                        >
-                                    </li>
-                                    <li>
-                                        Phone:<br /><span>010-020-0340</span>
-                                    </li>
-                                    <li>
-                                        Office Location:<br /><span
-                                            >North Miami Beach</span
-                                        >
-                                    </li>
+                                    <li>Store Location:<br /><span>Sunny Isles Beach, FL 33160, United
+                                        States</span></li>
+                                    <li>Phone:<br /><span>010-020-0340</span></li>
+                                    <li>Office Location:<br /><span>North Miami Beach</span></li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul>
-                                    <li>
-                                        Work Hours:<br /><span
-                                            >07:30 AM - 9:30 PM Daily</span
-                                        >
-                                    </li>
-                                    <li>
-                                        Email:<br /><span
-                                            >info@company.com</span
-                                        >
-                                    </li>
-                                    <li>
-                                        Social Media:<br /><span
-                                            ><a href="#">Facebook</a>,
+                                    <li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
+                                    <li>Email:<br /><span>ebookjunction@company.com</span></li>
+                                    <li>Social Media:<br /><span><a href="#">Facebook</a>,
                                             <a href="#">Instagram</a>,
                                             <a href="#">Behance</a>,
-                                            <a href="#">Linkedin</a></span
-                                        >
-                                    </li>
+                                            <a href="#">Linkedin</a></span></li>
                                 </ul>
                             </div>
                         </div>
@@ -1172,40 +597,36 @@ https://templatemo.com/tm-571-hexashop
                         <div class="first-item">
                             <div class="logo">
                                 <img
-                                    src="assets/images/white-logo.png"
+                                    src="assets/images/logo-putih.png"
                                     alt="hexashop ecommerce templatemo"
                                 />
                             </div>
                             <ul>
-                                <li>
-                                    <a href="#"
-                                        >16501 Collins Ave, Sunny Isles Beach,
-                                        FL 33160, United States</a
-                                    >
-                                </li>
-                                <li><a href="#">hexashop@company.com</a></li>
-                                <li><a href="#">010-020-0340</a></li>
+                                <li><a href="#">ebookjunction@company.com</a></li>
+                                <li><p>010-020-0340</p></li>
+                                <!-- <li>010-020-0340</li> -->
+                                <!-- <li><a href="#">010-020-0340</a></li> -->
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <h4>Shopping &amp; Categories</h4>
                         <ul>
-                            <li><a href="#">Men’s Shopping</a></li>
-                            <li><a href="#">Women’s Shopping</a></li>
-                            <li><a href="#">Kid's Shopping</a></li>
+                            <li><a href="fiksi">Fiksi</a></li>
+                            <li><a href="nonfiksi">Non Fiksi</a></li>
+                            <li><a href="pendidikan">Pendidikan</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
                         <h4>Useful Links</h4>
                         <ul>
                             <li><a href="#">Homepage</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="about">About Us</a></li>
+                            <!-- <li><a href="#">Help</a></li> -->
+                            <li><a href="contact">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <h4>Help &amp; Information</h4>
                         <ul>
                             <li><a href="#">Help</a></li>
@@ -1213,14 +634,14 @@ https://templatemo.com/tm-571-hexashop
                             <li><a href="#">Shipping</a></li>
                             <li><a href="#">Tracking ID</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="col-lg-12">
                         <div class="under-footer">
                             <p>
-                                Copyright © 2022 HexaShop Co., Ltd. All Rights
+                                Copyright © 2022 EBookJunction Co., Ltd. All Rights
                                 Reserved.
 
-                                <br />Design:
+                                <!-- <br />Design:
                                 <a
                                     href="https://templatemo.com"
                                     target="_parent"
@@ -1234,7 +655,7 @@ https://templatemo.com/tm-571-hexashop
                                     target="_blank"
                                     title="free & premium responsive templates"
                                     >ThemeWagon</a
-                                >
+                                > -->
                             </p>
                             <ul>
                                 <li>

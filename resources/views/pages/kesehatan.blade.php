@@ -1,63 +1,36 @@
 @extends('layouts.tes')
 
 @section('title')
-<title>EBookJunction - Women's Product</title>
+<title>EBookJunction - Kesehatan</title>
 @endsection
 
-@section('active-menu')
-        <!-- ***** Header Area Start ***** -->
-        <header class="header-area header-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="main-nav">
-                            <!-- ***** Logo Start ***** -->
-                            <a href="home" class="logo">
-                                <img src="assets/images/Frame-9.png" />
-                            </a>
-                            <!-- ***** Logo End ***** -->
-                            <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                                <li class="scroll-to-section"><a href="home">Home</a></li>
-                                <li class="scroll-to-section"><a href="about">About</a></li>
-                                <li class="scroll-to-section"><a href="contact">Contact</a></li>
-                                <li class="scroll-to-section"><a href="products">Product</a></li>
-                                <li class="scroll-to-section"><a href="single">Single-Product</a></li>
-
-                                <li class="submenu">
-                                    <a href="javascript:;">Categories</a><ul>
-                                        <li><a href="mens">Men's</a></li>
-                                        <li><a href="womens">Women's</a></li>
-                                        <li><a href="kids">Kid's</a></li>
-                                    </ul>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#explore">Explore</a>
-                                </li>
-                        </ul>
-                            <a class="menu-trigger">
-                                <span>Menu</span>
-                            </a>
-                            <!-- ***** Menu End ***** -->
-                        </nav>
+@section('banner')
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading cat-page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>Buku Kesehatan</h2>
+                        <span>Temukan tips kesehatan, gaya hidup sehat, dan informasi mengenai berbagai aspek kesehatan.</span>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- ***** Header Area End ***** -->
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
 @endsection
 
 @section('content')
-        <!-- ***** Women Area Starts ***** -->
-        <section class="section" id="women">
+<!-- ***** Men Area Starts ***** -->
+<section class="section" id="men">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Women's Latest</h2>
+                            <h2>Kesehatan Terbaru</h2>
                             <span
-                                >Details to details is what makes Hexashop
-                                different from the other themes.</span
+                                >Temukan tips kesehatan, gaya hidup sehat, dan informasi mengenai berbagai aspek kesehatan.</span
                             >
                         </div>
                     </div>
@@ -66,8 +39,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="women-item-carousel">
-                            <div class="owl-women-item owl-carousel">
+                        <div class="men-item-carousel">
+                            <div class="owl-men-item owl-carousel">
                                 <div class="item">
                                     <div class="thumb">
                                         <div class="hover-content">
@@ -99,13 +72,13 @@
                                             </ul>
                                         </div>
                                         <img
-                                            src="assets/images/women-01.jpg"
+                                            src="assets/images/men-01.jpg"
                                             alt=""
                                         />
                                     </div>
                                     <div class="down-content">
-                                        <h4>New Green Jacket</h4>
-                                        <span>$75.00</span>
+                                        <h4>Classic Spring</h4>
+                                        <span>$120.00</span>
                                         <ul class="stars">
                                             <li><i class="fa fa-star"></i></li>
                                             <li><i class="fa fa-star"></i></li>
@@ -146,13 +119,13 @@
                                             </ul>
                                         </div>
                                         <img
-                                            src="assets/images/women-02.jpg"
+                                            src="assets/images/men-02.jpg"
                                             alt=""
                                         />
                                     </div>
                                     <div class="down-content">
-                                        <h4>Classic Dress</h4>
-                                        <span>$45.00</span>
+                                        <h4>Air Force 1 X</h4>
+                                        <span>$90.00</span>
                                         <ul class="stars">
                                             <li><i class="fa fa-star"></i></li>
                                             <li><i class="fa fa-star"></i></li>
@@ -193,13 +166,13 @@
                                             </ul>
                                         </div>
                                         <img
-                                            src="assets/images/women-03.jpg"
+                                            src="assets/images/men-03.jpg"
                                             alt=""
                                         />
                                     </div>
                                     <div class="down-content">
-                                        <h4>Spring Collection</h4>
-                                        <span>$130.00</span>
+                                        <h4>Love Nana ‘20</h4>
+                                        <span>$150.00</span>
                                         <ul class="stars">
                                             <li><i class="fa fa-star"></i></li>
                                             <li><i class="fa fa-star"></i></li>
@@ -240,7 +213,7 @@
                                             </ul>
                                         </div>
                                         <img
-                                            src="assets/images/women-01.jpg"
+                                            src="assets/images/men-01.jpg"
                                             alt=""
                                         />
                                     </div>
@@ -262,5 +235,5 @@
                 </div>
             </div>
         </section>
-        <!-- ***** Women Area Ends ***** -->
+        <!-- ***** Men Area Ends ***** -->
 @endsection

@@ -33,13 +33,8 @@
         <link rel="stylesheet" href="assets/css/owl-carousel.css" />
 
         <link rel="stylesheet" href="assets/css/lightbox.css" />
-        <!--
-
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
+        <!-- TemplateMo 571 Hexashop https://templatemo.com/tm-571-hexashop -->
+        
     </head>
 
     <body>
@@ -52,7 +47,46 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
         <!-- ***** Preloader End ***** -->
-        @yield('active-menu')
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="home" class="logo">
+                                <img src="assets/images/logo-biasa.png" />
+                            </a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                                <li class="scroll-to-section"><a href="home">Home</a></li>
+                                <li class="scroll-to-section"><a href="about">About</a></li>
+                                 <li class="submenu"><a href="javascript:;">Categories</a><ul>
+                                        <li><a href="fiksi">Fiksi</a></li>
+                                        <li><a href="nonfiksi">Non Fiksi</a></li>
+                                        <li><a href="saintek">Sains dan Teknologi</a></li>
+                                        <li><a href="pendidikan">Pendidikan</a></li>
+                                        <li><a href="kesehatan">Kesehatan</a></li>
+                                        <li><a href="biskeu">Bisnis dan Keuangan</a></li></ul>
+                                </li>
+                                <li class="scroll-to-section"><a href="contact">Contact</a></li>
+                                <li class="scroll-to-section"><a href="products">Product</a></li>
+                                <li class="scroll-to-section"><a href="#">Profile</a></li>
+                                <li class="scroll-to-section"><a href="#explore">My Book</a>
+                                </li></ul>
+                            <a class="menu-trigger">                                
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->        
+        @yield('banner')
 
         @yield('content')
         <!-- ***** Footer Start ***** -->
@@ -63,7 +97,7 @@ https://templatemo.com/tm-571-hexashop
                         <div class="first-item">
                             <div class="logo">
                                 <img
-                                    src="assets/images/white-logo.png"
+                                    src="assets/images/logo-putih.png"
                                     alt="hexashop ecommerce templatemo"
                                 />
                             </div>
@@ -74,7 +108,7 @@ https://templatemo.com/tm-571-hexashop
                                         FL 33160, United States</a
                                     >
                                 </li>
-                                <li><a href="#">hexashop@company.com</a></li>
+                                <li><a href="#">ebookjunction@company.com</a></li>
                                 <li><a href="#">010-020-0340</a></li>
                             </ul>
                         </div>
@@ -96,7 +130,7 @@ https://templatemo.com/tm-571-hexashop
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <h4>Help &amp; Information</h4>
                         <ul>
                             <li><a href="#">Help</a></li>
@@ -104,14 +138,14 @@ https://templatemo.com/tm-571-hexashop
                             <li><a href="#">Shipping</a></li>
                             <li><a href="#">Tracking ID</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="col-lg-12">
                         <div class="under-footer">
                             <p>
-                                Copyright © 2022 HexaShop Co., Ltd. All Rights
+                                Copyright © 2022 EBookJunction Co., Ltd. All Rights
                                 Reserved.
 
-                                <br />Design:
+                                <!-- <br />Design:
                                 <a
                                     href="https://templatemo.com"
                                     target="_parent"
@@ -125,7 +159,7 @@ https://templatemo.com/tm-571-hexashop
                                     target="_blank"
                                     title="free & premium responsive templates"
                                     >ThemeWagon</a
-                                >
+                                > -->
                             </p>
                             <ul>
                                 <li>

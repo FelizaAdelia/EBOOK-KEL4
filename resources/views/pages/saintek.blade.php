@@ -4,47 +4,21 @@
 <title>EBookJunction - Kids Product</title>
 @endsection
 
-@section('active-menu')
-        <!-- ***** Header Area Start ***** -->
-        <header class="header-area header-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="main-nav">
-                            <!-- ***** Logo Start ***** -->
-                            <a href="home" class="logo">
-                                <img src="assets/images/Frame-9.png" />
-                            </a>
-                            <!-- ***** Logo End ***** -->
-                            <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                                <li class="scroll-to-section"><a href="home">Home</a></li>
-                                <li class="scroll-to-section"><a href="about">About</a></li>
-                                <li class="scroll-to-section"><a href="contact">Contact</a></li>
-                                <li class="scroll-to-section"><a href="products">Product</a></li>
-                                <li class="scroll-to-section"><a href="single">Single-Product</a></li>
-
-                                <li class="submenu">
-                                    <a href="javascript:;">Categories</a><ul>
-                                        <li><a href="mens">Men's</a></li>
-                                        <li><a href="womens">Women's</a></li>
-                                        <li><a href="kids">Kid's</a></li>
-                                    </ul>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#explore">Explore</a>
-                                </li>
-                        </ul>
-                            <a class="menu-trigger">
-                                <span>Menu</span>
-                            </a>
-                            <!-- ***** Menu End ***** -->
-                        </nav>
+@section('banner')
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading about-page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>Buku Sains dan Teknologi</h2>
+                        <span>Temukan buku-buku yang akan membawa Anda dalam perjalanan menakjubkan melintasi dunia ilmu pengetahuan!</span>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- ***** Header Area End ***** -->
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
 @endsection
 
 @section('content')
@@ -54,10 +28,9 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Kid's Latest</h2>
+                            <h2>Buku Sains dan Teknologi</h2>
                             <span
-                                >Details to details is what makes Hexashop
-                                different from the other themes.</span
+                                >Temukan buku-buku yang akan membawa Anda dalam perjalanan menakjubkan melintasi dunia ilmu pengetahuan!</span
                             >
                         </div>
                     </div>

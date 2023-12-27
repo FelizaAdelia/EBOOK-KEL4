@@ -6,13 +6,13 @@
 
 @section('banner')
     <!-- ***** Main Banner Area Start ***** -->
-    <div class="page-heading cat-page-heading" id="top">
+    <div class="page-heading about-page-heading" id="top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Buku Fiksi</h2>
-                        <span>Temukan dunia imajinatif dalam novel dan cerita pendek.</span>
+                        <h2>Buku Bisnis dan Keuangan</h2>
+                        <span>Mari bergabung dalam perjalanan pengetahuan ini dan bersama-sama kita maju menuju kesuksesan finansial dan bisnis yang lebih besar!</span>
                     </div>
                 </div>
             </div>
@@ -28,9 +28,9 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Fiksi Terbaru</h2>
+                            <h2>Bisnis dan Keuangan terbaru</h2>
                             <span
-                                >Temukan dunia imajinatif dalam novel dan cerita pendek.</span
+                                >Dmari lihat-lihat dan temukan buku-buku yang akan membawa Anda menuju puncak kesuksesan!</span
                             >
                         </div>
                     </div>
